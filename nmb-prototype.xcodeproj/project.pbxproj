@@ -13,6 +13,8 @@
 		0439C99E1B79FEBE008385D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0439C99D1B79FEBE008385D9 /* Images.xcassets */; };
 		0439C9A11B79FEBE008385D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0439C99F1B79FEBE008385D9 /* LaunchScreen.xib */; };
 		0439C9AD1B79FEBE008385D9 /* nmb_prototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439C9AC1B79FEBE008385D9 /* nmb_prototypeTests.swift */; };
+		EE84BC8A1B7A343F00BB76E7 /* Work-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EE84BC891B7A343F00BB76E7 /* Work-50.png */; };
+		EE84BC8C1B7A34AE00BB76E7 /* Decision-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EE84BC8B1B7A34AE00BB76E7 /* Decision-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0439C9A61B79FEBE008385D9 /* nmb-prototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nmb-prototypeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0439C9AB1B79FEBE008385D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0439C9AC1B79FEBE008385D9 /* nmb_prototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nmb_prototypeTests.swift; sourceTree = "<group>"; };
+		EE84BC891B7A343F00BB76E7 /* Work-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Work-50.png"; path = "../../../Downloads/Work-50.png"; sourceTree = "<group>"; };
+		EE84BC8B1B7A34AE00BB76E7 /* Decision-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Decision-50.png"; path = "../../../Downloads/Decision-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				0439C9931B79FEBE008385D9 /* nmb-prototype */,
 				0439C9A91B79FEBE008385D9 /* nmb-prototypeTests */,
 				0439C9921B79FEBE008385D9 /* Products */,
+				EE84BC891B7A343F00BB76E7 /* Work-50.png */,
+				EE84BC8B1B7A34AE00BB76E7 /* Decision-50.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE84BC8C1B7A34AE00BB76E7 /* Decision-50.png in Resources */,
 				0439C99C1B79FEBE008385D9 /* Main.storyboard in Resources */,
 				0439C9A11B79FEBE008385D9 /* LaunchScreen.xib in Resources */,
 				0439C99E1B79FEBE008385D9 /* Images.xcassets in Resources */,
+				EE84BC8A1B7A343F00BB76E7 /* Work-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				0439C9B21B79FEBE008385D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0439C9B31B79FEBE008385D9 /* Build configuration list for PBXNativeTarget "nmb-prototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				0439C9B51B79FEBE008385D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
